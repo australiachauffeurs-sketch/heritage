@@ -79,7 +79,7 @@ const faqs = [
 ];
 
 export default function USManufacturingPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'India Manufacturing & Sourcing for US Fashion Brands', serviceType: 'Fashion Manufacturing & Sourcing', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' }, description: 'Factory-direct clothing manufacturing and accessories sourcing from India for US fashion brands. 35–60% cost savings, CPSC compliance, FBA-ready shipments.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '2500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '2500', unitText: 'PROJECT' } } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'India Manufacturing & Sourcing for US Fashion Brands', serviceType: 'Fashion Manufacturing & Sourcing', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' }, description: 'Factory-direct clothing manufacturing and accessories sourcing from India for US fashion brands. 35–60% cost savings, CPSC compliance, FBA-ready shipments.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '2500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '2500', unitText: 'PROJECT' } } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

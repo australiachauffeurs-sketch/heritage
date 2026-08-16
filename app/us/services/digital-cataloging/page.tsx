@@ -78,7 +78,7 @@ const faqs = [
 ];
 
 export default function USDigitalCatalogingPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Digital Catalog Photography — Amazon, Walmart & Etsy', serviceType: 'Digital Catalog Photography', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' }, description: 'High-volume catalog photography for US brands — 300 SKUs/day, formatted for Amazon, Walmart, Etsy, and Shopify. Starting at $3/SKU, delivered in 24–48 hours.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3', unitText: 'SKU' } } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Digital Catalog Photography — Amazon, Walmart & Etsy', serviceType: 'Digital Catalog Photography', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' }, description: 'High-volume catalog photography for US brands — 300 SKUs/day, formatted for Amazon, Walmart, Etsy, and Shopify. Starting at $3/SKU, delivered in 24–48 hours.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3', unitText: 'SKU' } } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

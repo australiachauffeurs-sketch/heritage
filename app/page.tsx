@@ -79,12 +79,12 @@ export default async function HomePage() {
     '@type': 'WebPage',
     name: 'Heritage Apparels - Fashion Photography & Digital Cataloging Agency',
     description: 'India\'s premier fashion photography and digital cataloging agency for D2C brands.',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com',
     mainEntity: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com',
-      logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com'}/logo.png`,
+      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com',
+      logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com'}/logo.png`,
     },
   };
 

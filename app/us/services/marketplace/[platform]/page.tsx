@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ platform:
   return {
     title: `${marketplace.name} Onboarding for India Fashion Brands | Heritage Apparels USA`,
     description: `We onboard India-made fashion brands on ${marketplace.name} — listings, US compliance, catalog upload, and marketplace management. ${marketplace.strength}`,
-    alternates: { canonical: `https://www.heritageapparels.com/us/services/marketplace/${marketplace.slug}` },
+    alternates: { canonical: `https://heritage.orbilox.com/us/services/marketplace/${marketplace.slug}` },
   };
 }
 
@@ -28,7 +28,7 @@ export default async function USMarketplacePage({ params }: { params: Promise<{ 
     '@type': 'Service',
     name: `${marketplace.name} Onboarding for India-Made Fashion Brands`,
     serviceType: 'US Marketplace Onboarding',
-    provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' },
+    provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' },
     description: `Heritage Apparels onboards India-made fashion brands on ${marketplace.name} — US-compliant listings, catalog upload, Brand Registry, and ongoing marketplace management.`,
     areaServed: { '@type': 'Country', name: 'United States' },
   };

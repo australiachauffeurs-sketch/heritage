@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Luxury Fashion Brand Agency USA | Premium India Manufacturing | Heritage Apparels',
   description: 'Launch your luxury fashion brand in the USA with premium India manufacturing. Hand-crafted garments, artisan embroidery, luxury packaging, and US boutique distribution.',
   keywords: ['luxury fashion brand agency USA', 'premium fashion brand launch USA', 'luxury clothing manufacturer India', 'artisan fashion brand USA', 'luxury D2C fashion brand'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/industries/luxury-fashion' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/industries/luxury-fashion' },
 };
 
 const differentiators = [

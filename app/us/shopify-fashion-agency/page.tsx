@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Shopify Fashion Brand Agency USA | D2C Store Build & Growth | Heritage Apparels',
   description: 'We build and scale Shopify stores for US fashion brands. Custom design, US payment setup, Meta Ads integration, email flows, and full conversion optimization. Average 3x revenue in 90 days.',
   keywords: ['Shopify fashion brand agency USA', 'Shopify fashion store setup', 'D2C fashion Shopify agency', 'Shopify clothing brand agency', 'fashion brand Shopify store USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/shopify-fashion-agency' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/shopify-fashion-agency' },
   openGraph: { title: 'Shopify Fashion Brand Agency USA | Heritage Apparels', description: 'We build high-converting Shopify stores for US fashion brands — from design to Meta Ads. Average client sees 3x revenue in 90 days.', type: 'website', locale: 'en_US' },
 };
 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'fashion brand business model 2025',
   ],
   alternates: {
-    canonical: 'https://www.heritageapparels.com/us/private-label-vs-dropshipping',
+    canonical: 'https://heritage.orbilox.com/us/private-label-vs-dropshipping',
   },
   openGraph: {
     title: 'Private Label vs Dropshipping for Fashion Brands USA | Heritage Apparels',

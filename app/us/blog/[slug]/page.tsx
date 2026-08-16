@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { usBlogPosts, getUSBlogPostBySlug } from '@/lib/us-blog-data';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
 
 interface Props {
   params: { slug: string };

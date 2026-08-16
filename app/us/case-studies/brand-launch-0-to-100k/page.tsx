@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '0 to $100K Fashion Brand in 4 Months | Case Study | Heritage Apparels',
   description: 'How Heritage Apparels helped LA activewear founder Sarah Mitchell go from idea to $103,000 revenue in 4 months — with India manufacturing, Shopify, and Meta Ads.',
   keywords: ['fashion brand launch case study USA', 'D2C fashion brand success story', 'activewear brand launch USA', 'Heritage Apparels case study', 'fashion brand 0 to 100k'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/case-studies/brand-launch-0-to-100k' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/case-studies/brand-launch-0-to-100k' },
 };
 
 const stats = [

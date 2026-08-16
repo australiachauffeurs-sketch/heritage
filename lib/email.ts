@@ -169,7 +169,7 @@ export function generateAutoReplyEmail(name: string): string {
         </ul>
       </div>
       <p>In the meantime, feel free to explore our portfolio and blog for inspiration and insights on how we've helped brands like yours achieve their visual goals.</p>
-      <a href="${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com'}/portfolio" class="cta-button">Explore Our Portfolio →</a>
+      <a href="${process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com'}/portfolio" class="cta-button">Explore Our Portfolio →</a>
       <p>If you have any urgent queries, please don't hesitate to reach us directly at <a href="mailto:hello@heritageapparels.com" style="color: #c9a84c;">hello@heritageapparels.com</a> or call us at <a href="tel:+919876543210" style="color: #c9a84c;">+91 98765 43210</a>.</p>
     </div>
     <div class="footer">

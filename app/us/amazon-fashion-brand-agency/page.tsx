@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'FBA fashion brand management',
   ],
   alternates: {
-    canonical: 'https://www.heritageapparels.com/us/amazon-fashion-brand-agency',
+    canonical: 'https://heritage.orbilox.com/us/amazon-fashion-brand-agency',
   },
   openGraph: {
     title: 'Amazon Fashion Brand Agency USA | Heritage Apparels',
@@ -197,7 +197,7 @@ export default function AmazonFashionAgencyPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://www.heritageapparels.com/us',
+      url: 'https://heritage.orbilox.com/us',
     },
     description:
       'We launch and scale fashion brands on Amazon.com. Brand Registry, A+ Content, Sponsored Ads management, FBA setup, and full catalog optimization. Average client ROAS: 4–8x.',

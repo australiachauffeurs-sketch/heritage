@@ -79,7 +79,7 @@ const faqs = [
 ];
 
 export default function USBrandLaunchPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Fashion Brand Launch from India Manufacturing', serviceType: 'Brand Launch & E-commerce Setup', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' }, description: 'End-to-end US brand launch: India manufacturing, brand identity, Shopify store, Amazon & Walmart onboarding, and launch campaign. From idea to first US sale in 45 days.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '8500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '8500', unitText: 'PROJECT' } } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Fashion Brand Launch from India Manufacturing', serviceType: 'Brand Launch & E-commerce Setup', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' }, description: 'End-to-end US brand launch: India manufacturing, brand identity, Shopify store, Amazon & Walmart onboarding, and launch campaign. From idea to first US sale in 45 days.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '8500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '8500', unitText: 'PROJECT' } } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

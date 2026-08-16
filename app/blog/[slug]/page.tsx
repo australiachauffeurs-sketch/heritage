@@ -59,16 +59,16 @@ export default async function BlogPostPage({ params }: Props) {
     author: {
       '@type': 'Organization',
       name: post.author || 'Heritage Apparels',
-      url: 'https://www.heritageapparels.com',
+      url: 'https://heritage.orbilox.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      logo: { '@type': 'ImageObject', url: 'https://www.heritageapparels.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://heritage.orbilox.com/logo.png' },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.heritageapparels.com/blog/${post.slug}`,
+      '@id': `https://heritage.orbilox.com/blog/${post.slug}`,
     },
   };
 
@@ -137,9 +137,9 @@ export default async function BlogPostPage({ params }: Props) {
             <p className="text-cream/40 text-sm mb-4">Share this article</p>
             <div className="flex items-center gap-3">
               {[
-                { name: 'LinkedIn', icon: 'in', href: `https://www.linkedin.com/sharing/share-offsite/?url=https://www.heritageapparels.com/blog/${post.slug}` },
-                { name: 'Twitter/X', icon: 'X', href: `https://twitter.com/intent/tweet?url=https://www.heritageapparels.com/blog/${post.slug}&text=${encodeURIComponent(post.title)}` },
-                { name: 'WhatsApp', icon: 'W', href: `https://wa.me/?text=${encodeURIComponent(post.title + ' - https://www.heritageapparels.com/blog/' + post.slug)}` },
+                { name: 'LinkedIn', icon: 'in', href: `https://www.linkedin.com/sharing/share-offsite/?url=https://heritage.orbilox.com/blog/${post.slug}` },
+                { name: 'Twitter/X', icon: 'X', href: `https://twitter.com/intent/tweet?url=https://heritage.orbilox.com/blog/${post.slug}&text=${encodeURIComponent(post.title)}` },
+                { name: 'WhatsApp', icon: 'W', href: `https://wa.me/?text=${encodeURIComponent(post.title + ' - https://heritage.orbilox.com/blog/' + post.slug)}` },
               ].map((social) => (
                 <a
                   key={social.name}

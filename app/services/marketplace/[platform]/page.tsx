@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ platform:
   return {
     title: `${marketplace.name} Seller Onboarding for Fashion Brands | Heritage Apparels`,
     description: `We onboard your fashion brand on ${marketplace.name} — listings, compliance, catalog upload, and ongoing management. ${marketplace.strength}`,
-    alternates: { canonical: `https://www.heritageapparels.com/services/marketplace/${marketplace.slug}` },
+    alternates: { canonical: `https://heritage.orbilox.com/services/marketplace/${marketplace.slug}` },
   };
 }
 
@@ -28,7 +28,7 @@ export default async function IndiaMarketplacePage({ params }: { params: Promise
     '@type': 'Service',
     name: `${marketplace.name} Seller Onboarding for Fashion Brands`,
     serviceType: 'Marketplace Onboarding',
-    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
+    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
     description: `Heritage Apparels onboards D2C fashion brands on ${marketplace.name} — catalog upload, listing optimization, compliance, and ongoing management.`,
     areaServed: { '@type': 'Country', name: 'India' },
   };

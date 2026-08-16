@@ -144,7 +144,7 @@ export default function TikTokShopFashionAgencyPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://www.heritageapparels.com/us',
+      url: 'https://heritage.orbilox.com/us',
     },
     description:
       'We launch and manage fashion brands on TikTok Shop USA — account setup, creator partnerships, shoppable videos, and full-funnel TikTok Ads management.',

@@ -76,7 +76,7 @@ const faqs = [
 ];
 
 export default function USPhotoshootPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'Amazon & US Marketplace Product Photography for Fashion Brands', serviceType: 'Product Photography & E-commerce Imaging', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' }, description: 'Amazon-compliant product photography for US brands — white background, lifestyle, infographic, and on-model shots. Starting at $3/SKU, delivered in 48 hours.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3', unitText: 'SKU' } } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'Amazon & US Marketplace Product Photography for Fashion Brands', serviceType: 'Product Photography & E-commerce Imaging', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' }, description: 'Amazon-compliant product photography for US brands — white background, lifestyle, infographic, and on-model shots. Starting at $3/SKU, delivered in 48 hours.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3', unitText: 'SKU' } } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

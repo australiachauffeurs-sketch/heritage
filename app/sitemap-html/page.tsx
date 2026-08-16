@@ -8,7 +8,7 @@ import { usMarketplaces } from '@/lib/us-marketplace-data';
 export const metadata: Metadata = {
   title: 'Sitemap — Heritage Apparels',
   description: 'Complete HTML sitemap of Heritage Apparels — India & USA fashion brand building agency. Browse all pages, services, blog posts, city pages, and marketplace guides.',
-  alternates: { canonical: 'https://www.heritageapparels.com/sitemap-html' },
+  alternates: { canonical: 'https://heritage.orbilox.com/sitemap-html' },
 };
 
 const indiaServices = [

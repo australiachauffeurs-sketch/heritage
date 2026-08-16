@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'fashion sourcing India US entrepreneurs',
   ],
   alternates: {
-    canonical: 'https://www.heritageapparels.com/us/india-manufacturing-for-us-brands',
+    canonical: 'https://heritage.orbilox.com/us/india-manufacturing-for-us-brands',
   },
   openGraph: {
     title: 'India Clothing Manufacturing for US Brands | Heritage Apparels',
@@ -110,7 +110,7 @@ export default function IndiaManufacturingPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://www.heritageapparels.com/us',
+      url: 'https://heritage.orbilox.com/us',
     },
     description:
       'Private-label clothing manufacturing in India for US fashion brands. MOQ from 50 pieces, 21-day production, 35–60% cost saving vs US manufacturing, CPSC compliant.',

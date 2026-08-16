@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Sustainable Fashion Brand Agency USA | Eco Clothing from India | Heritage Apparels',
   description: 'Launch your sustainable fashion brand in the USA. GOTS-certified organic cotton, recycled fabrics, eco packaging from India. Full US market launch included.',
   keywords: ['sustainable fashion brand agency USA', 'eco clothing brand USA', 'organic fashion brand launch', 'sustainable clothing manufacturer India', 'GOTS certified fashion brand USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/industries/sustainable-fashion' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/industries/sustainable-fashion' },
 };
 
 const certifications = [

@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     'performance marketing agency clothing brand America',
   ],
   alternates: {
-    canonical: 'https://www.heritageapparels.com/us/services/performance-marketing',
+    canonical: 'https://heritage.orbilox.com/us/services/performance-marketing',
     languages: {
-      'en-US': 'https://www.heritageapparels.com/us/services/performance-marketing',
-      'en-IN': 'https://www.heritageapparels.com/services/performance-marketing',
+      'en-US': 'https://heritage.orbilox.com/us/services/performance-marketing',
+      'en-IN': 'https://heritage.orbilox.com/services/performance-marketing',
     },
   },
   openGraph: {
@@ -124,7 +124,7 @@ export default function USPerformanceMarketingPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://www.heritageapparels.com/us',
+      url: 'https://heritage.orbilox.com/us',
     },
     description: 'Revenue-generating paid campaigns on Meta Ads, Google Shopping, TikTok Ads, Amazon DSP, and Walmart Connect for US fashion brands. Creatives included. 4–8x ROAS.',
     areaServed: { '@type': 'Country', name: 'United States' },

@@ -24,7 +24,7 @@ const faqs = [
 ];
 
 export default function BrandStrategyPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'Brand Strategy & Visual Identity for Fashion Brands India', serviceType: 'Brand Strategy & Identity Design', provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } }, description: 'Brand strategy, positioning, and visual identity design for D2C fashion brands in India. Market research, brand naming, logo, and brand guidelines.', areaServed: { '@type': 'Country', name: 'India' } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'Brand Strategy & Visual Identity for Fashion Brands India', serviceType: 'Brand Strategy & Identity Design', provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } }, description: 'Brand strategy, positioning, and visual identity design for D2C fashion brands in India. Market research, brand naming, logo, and brand guidelines.', areaServed: { '@type': 'Country', name: 'India' } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

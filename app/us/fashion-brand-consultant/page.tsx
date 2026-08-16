@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Fashion Brand Consultant USA | Strategy, Sourcing & Growth | Heritage Apparels',
   description: 'Work with a dedicated US fashion brand consultant — brand strategy, India sourcing, marketplace growth, and performance marketing. One expert. Full-stack fashion execution.',
   keywords: ['fashion brand consultant USA', 'clothing brand consultant', 'fashion brand advisor USA', 'fashion brand strategy consultant', 'D2C fashion consultant USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/fashion-brand-consultant' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/fashion-brand-consultant' },
 };
 
 const expertise = [

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'How to Source Clothing from India for Your US Brand (2025 Guide) | Heritage Apparels',
   description: 'Complete guide to sourcing clothing from India for US fashion brands. Finding manufacturers, samples, quality control, US import, customs duties — step by step for 2025.',
   keywords: ['how to source clothing from India USA', 'India clothing sourcing guide', 'find clothing manufacturer India', 'import clothing from India to USA', 'India fashion sourcing for US brands'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/how-to-source-clothing-from-india' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/how-to-source-clothing-from-india' },
 };
 
 const steps = [

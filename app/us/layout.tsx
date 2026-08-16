@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
 
 export const metadata: Metadata = {
   title: {

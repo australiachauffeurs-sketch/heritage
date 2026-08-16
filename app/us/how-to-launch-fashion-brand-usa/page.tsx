@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'How to Launch a Fashion Brand in the USA in 2025 | Heritage Apparels',
   description: 'Complete step-by-step guide to launching a fashion brand in the USA in 2025 — sourcing, branding, Shopify, Amazon, TikTok, and Meta Ads. From a team that has launched 500+ brands.',
   keywords: ['how to launch fashion brand USA 2025', 'start clothing brand USA', 'fashion brand launch guide USA', 'how to start fashion brand in USA', 'launch D2C fashion brand USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/how-to-launch-fashion-brand-usa' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/how-to-launch-fashion-brand-usa' },
 };
 
 const steps = [

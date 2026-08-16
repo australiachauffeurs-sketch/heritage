@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'D2C Fashion Brand Launch Agency USA | 0 to First Sale in 45 Days | Heritage Apparels',
   description: 'We launch D2C fashion brands in the US market — from India sourcing and brand identity to Shopify store and performance marketing. Zero to first sale in 45 days.',
   keywords: ['D2C fashion brand launch USA', 'direct to consumer fashion brand agency', 'fashion brand launch agency USA', 'start D2C clothing brand USA', 'fashion brand launch from scratch USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/d2c-fashion-brand-launch' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/d2c-fashion-brand-launch' },
   openGraph: { title: 'D2C Fashion Brand Launch Agency USA | Heritage Apparels', description: 'Launch your D2C fashion brand in the USA in 45 days. India manufacturing + brand identity + Shopify + performance marketing.', type: 'website', locale: 'en_US' },
 };
 

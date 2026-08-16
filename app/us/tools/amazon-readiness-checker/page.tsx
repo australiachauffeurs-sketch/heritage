@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Amazon Fashion Brand Readiness Checker | Free Tool | Heritage Apparels',
   description: 'Is your fashion brand ready for Amazon.com? Take our free 10-question readiness checker and get a custom Amazon launch plan from Heritage Apparels.',
   keywords: ['Amazon fashion brand readiness', 'Amazon brand launch checker', 'is my brand ready for Amazon', 'Amazon fashion brand tool', 'Amazon brand readiness quiz'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/tools/amazon-readiness-checker' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/tools/amazon-readiness-checker' },
 };
 
 export default function AmazonReadinessCheckerPage() {

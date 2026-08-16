@@ -21,7 +21,7 @@ const playfair = Playfair_Display({
   style: ['normal', 'italic'],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageapparels.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

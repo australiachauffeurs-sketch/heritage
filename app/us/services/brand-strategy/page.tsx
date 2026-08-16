@@ -76,7 +76,7 @@ const faqs = [
 ];
 
 export default function USBrandStrategyPage() {
-  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Brand Strategy & Visual Identity for Fashion Brands', serviceType: 'Brand Strategy & Identity Design', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' }, description: 'Complete US-market brand identity system — logo, visual identity, retail packaging, Amazon Brand Store, and brand guidelines. USPTO trademark check included.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3500', unitText: 'PROJECT' } } };
+  const serviceSchema = { '@context': 'https://schema.org', '@type': 'Service', name: 'US Brand Strategy & Visual Identity for Fashion Brands', serviceType: 'Brand Strategy & Identity Design', provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' }, description: 'Complete US-market brand identity system — logo, visual identity, retail packaging, Amazon Brand Store, and brand guidelines. USPTO trademark check included.', areaServed: { '@type': 'Country', name: 'United States' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '3500', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'USD', minPrice: '3500', unitText: 'PROJECT' } } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   return (
     <main className="pt-20">

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'India vs US Manufacturing Cost Calculator | Fashion Brands | Heritage Apparels',
   description: 'Calculate how much you save by manufacturing your fashion products in India vs USA or China. Free cost calculator for US fashion brand founders — see your annual savings instantly.',
   keywords: ['fashion manufacturing cost calculator', 'India vs US manufacturing cost', 'clothing manufacturing cost calculator', 'save on fashion manufacturing', 'India factory cost calculator'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/tools/manufacturing-cost-calculator' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/tools/manufacturing-cost-calculator' },
 };
 
 export default function ManufacturingCostCalculatorPage() {

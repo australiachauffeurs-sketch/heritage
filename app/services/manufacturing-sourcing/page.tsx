@@ -76,7 +76,7 @@ export default function ManufacturingPage() {
     '@context': 'https://schema.org', '@type': 'Service',
     name: 'Fashion Manufacturing & Accessories Sourcing India',
     serviceType: 'Clothing Manufacturing & Accessories Sourcing',
-    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
+    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
     description: 'End-to-end clothing manufacturing and accessories sourcing for D2C fashion brands in India. Own factory, MOQ from 100 pieces, full QC.',
     areaServed: { '@type': 'Country', name: 'India' },
     offers: { '@type': 'Offer', priceCurrency: 'INR', price: '150', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'INR', minPrice: '150', unitText: 'PIECE' } },

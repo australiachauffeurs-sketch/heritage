@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Fashion Accessories Brand Agency USA | Bags, Jewelry & More | Heritage Apparels',
   description: 'Launch your fashion accessories brand in the US market. India manufacturing for handbags, jewelry, scarves, belts, and more. Amazon, Etsy & Shopify launch included.',
   keywords: ['fashion accessories brand agency USA', 'handbag brand agency USA', 'jewelry brand launch USA', 'accessories brand manufacturing India', 'Etsy accessories brand agency'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/industries/accessories-brands' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/industries/accessories-brands' },
 };
 
 const services = [

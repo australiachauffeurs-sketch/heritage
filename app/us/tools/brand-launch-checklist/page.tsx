@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Fashion Brand Launch Checklist USA 2025 | Free Tool | Heritage Apparels',
   description: 'Complete 47-point checklist for launching a fashion brand in the USA. Brand identity, manufacturing, Shopify, Amazon, and marketing — track your progress interactively.',
   keywords: ['fashion brand launch checklist USA', 'clothing brand launch checklist', 'fashion brand startup checklist USA', 'how to launch fashion brand checklist'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/tools/brand-launch-checklist' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/tools/brand-launch-checklist' },
 };
 
 export default function BrandLaunchChecklistPage() {

@@ -207,7 +207,7 @@ export default function MarketplaceOnboardingPage() {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: 'Marketplace Onboarding & Management India — Myntra, AJIO, Nykaa, Amazon, Flipkart',
-    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
+    provider: { '@type': 'LocalBusiness', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com', address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' } },
     description: 'End-to-end marketplace onboarding and management across 35+ Indian platforms including Myntra, Nykaa, Amazon India, Flipkart, AJIO, Tata Cliq, Blinkit, and more.',
     areaServed: { '@type': 'Country', name: 'India' },
     offers: { '@type': 'Offer', priceCurrency: 'INR', price: '25000', priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'INR', minPrice: '25000', unitText: 'PROJECT' } },

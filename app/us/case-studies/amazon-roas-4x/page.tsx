@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '481% ROAS in 90 Days on Amazon | Fashion Brand Case Study | Heritage Apparels',
   description: 'How Heritage Apparels achieved 481% ROAS for UrbanBlock streetwear on Amazon in 90 days — full Amazon PPC, Brand Registry, A+ Content, and listing optimisation case study.',
   keywords: ['Amazon fashion brand ROAS case study', 'Amazon streetwear brand USA', 'Amazon PPC fashion 481% ROAS', 'Heritage Apparels Amazon case study'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/case-studies/amazon-roas-4x' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/case-studies/amazon-roas-4x' },
 };
 
 const monthlyBreakdown = [

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Client Reviews & Testimonials | US Fashion Brands | Heritage Apparels',
   description: 'What US fashion brand founders say about Heritage Apparels. Reviews from 500+ brands we\'ve launched and scaled — from India sourcing to Amazon, Shopify & performance marketing.',
   keywords: ['Heritage Apparels reviews', 'fashion brand agency testimonials USA', 'Heritage Apparels client reviews', 'fashion brand agency results USA'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/testimonials' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/testimonials' },
 };
 
 const testimonials = [

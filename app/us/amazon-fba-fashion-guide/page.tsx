@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Amazon FBA Fashion Brand Guide USA 2025 | Heritage Apparels',
   description: 'Complete guide to selling fashion on Amazon FBA in the USA. Brand Registry, listing optimisation, PPC, A+ Content, reviews, and scaling your fashion brand on Amazon in 2025.',
   keywords: ['Amazon FBA fashion brand guide', 'sell fashion on Amazon USA', 'Amazon clothing brand guide 2025', 'Amazon fashion brand agency USA', 'Amazon FBA clothing brand'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/amazon-fba-fashion-guide' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/amazon-fba-fashion-guide' },
 };
 
 const sections = [

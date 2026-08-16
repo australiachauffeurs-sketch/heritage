@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Kidswear Brand Agency USA | CPSC Compliant India Manufacturing | Heritage Apparels',
   description: 'Launch your kidswear brand in the USA with CPSC-compliant India manufacturing. Children\'s clothing, Amazon Kids, Walmart Baby, and D2C Shopify launch. MOQ from 50 pieces.',
   keywords: ['kidswear brand agency USA', 'children clothing brand launch USA', 'CPSC compliant kids clothing India', 'baby clothing brand USA', 'kids fashion brand agency'],
-  alternates: { canonical: 'https://www.heritageapparels.com/us/industries/kidswear-brands' },
+  alternates: { canonical: 'https://heritage.orbilox.com/us/industries/kidswear-brands' },
 };
 
 const compliance = [

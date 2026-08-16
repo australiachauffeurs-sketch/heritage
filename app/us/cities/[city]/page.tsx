@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
   return {
     title: `India Fashion Sourcing & Brand Services for ${cityData.name} Brands | Heritage Apparels USA`,
     description: `India manufacturing, US marketplace onboarding, brand strategy, and photography for ${cityData.name} fashion brands. ${cityData.tagline}`,
-    alternates: { canonical: `https://www.heritageapparels.com/us/cities/${cityData.slug}` },
+    alternates: { canonical: `https://heritage.orbilox.com/us/cities/${cityData.slug}` },
   };
 }
 
@@ -28,7 +28,7 @@ export default async function USCityPage({ params }: { params: Promise<{ city: s
     '@type': 'Service',
     name: `India Fashion Sourcing & Brand Services for ${cityData.name} Brands`,
     description: `Heritage Apparels helps ${cityData.name}-based fashion brands source from India, launch on US marketplaces, and build their US brand identity.`,
-    provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://www.heritageapparels.com/us' },
+    provider: { '@type': 'Organization', name: 'Heritage Apparels', url: 'https://heritage.orbilox.com/us' },
     areaServed: { '@type': 'City', name: cityData.name },
     serviceType: 'Fashion Brand Services',
   };

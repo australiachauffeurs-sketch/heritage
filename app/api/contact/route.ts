@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
       zc_gad:       '',
       xmIwtLD:      '1d770236f69ca18d5e5a93b7af498f9cfdda1b0f0dfee64ca92e2a4b3ac67e5a1cff121b5a0767bbd0c67fd99700978e',
       actionType:   'TGVhZHM=',
-      returnURL:    'https://www.heritageapparels.com/',
+      returnURL:    'https://heritage.orbilox.com/',
       'Last Name':  name,
       Email:        email || '',
       Phone:        phone || '',

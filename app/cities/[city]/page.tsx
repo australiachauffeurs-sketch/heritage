@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
   return {
     title: `Fashion Brand Services in ${cityData.name} | Heritage Apparels`,
     description: `Fashion photography, marketplace onboarding, brand strategy, and performance marketing for ${cityData.name} D2C fashion brands. ${cityData.tagline}`,
-    alternates: { canonical: `https://www.heritageapparels.com/cities/${cityData.slug}` },
+    alternates: { canonical: `https://heritage.orbilox.com/cities/${cityData.slug}` },
   };
 }
 
@@ -28,7 +28,7 @@ export default async function IndiaCityPage({ params }: { params: Promise<{ city
     '@type': 'LocalBusiness',
     name: `Heritage Apparels — ${cityData.name}`,
     description: `Fashion photography, digital cataloging, marketplace onboarding, and brand strategy for ${cityData.name} D2C fashion brands.`,
-    url: `https://www.heritageapparels.com/cities/${cityData.slug}`,
+    url: `https://heritage.orbilox.com/cities/${cityData.slug}`,
     areaServed: { '@type': 'City', name: cityData.name },
     serviceArea: { '@type': 'State', name: cityData.state },
     address: { '@type': 'PostalAddress', addressLocality: 'Mumbai', addressRegion: 'Maharashtra', addressCountry: 'IN' },

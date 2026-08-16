@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'sourcing from India vs China',
   ],
   alternates: {
-    canonical: 'https://www.heritageapparels.com/us/india-vs-china-manufacturing',
+    canonical: 'https://heritage.orbilox.com/us/india-vs-china-manufacturing',
   },
   openGraph: {
     title: 'India vs China Clothing Manufacturing for US Brands | Heritage Apparels',
