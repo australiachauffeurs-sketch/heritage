@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     creator: '@heritageapparels',
   },
   verification: {
-    google: 'google-site-verification-token',
+    google: '2hdz0LJn1tHxFyt2AEoC7md2wyCzxEF32PrJdvSQh-c',
   },
   alternates: {
     canonical: siteUrl,
