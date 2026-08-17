@@ -57,6 +57,45 @@ const usBlogSlugs = [
   'india-to-usa-import-shipping-fashion-2025',
 ];
 
+const usIndustrySlugs = [
+  'clothing-brands',
+  'activewear-brands',
+  'footwear-brands',
+  'accessories-brands',
+  'kidswear-brands',
+  'luxury-fashion',
+  'sustainable-fashion',
+];
+
+const usToolSlugs = [
+  'roas-calculator',
+  'manufacturing-cost-calculator',
+  'brand-launch-checklist',
+  'amazon-readiness-checker',
+];
+
+const usCaseStudySlugs = [
+  'amazon-roas-4x',
+  'brand-launch-0-to-100k',
+];
+
+const usLandingSlugs = [
+  'amazon-fashion-brand-agency',
+  'amazon-fba-fashion-guide',
+  'd2c-fashion-brand-launch',
+  'fashion-brand-consultant',
+  'free-brand-audit',
+  'how-to-launch-fashion-brand-usa',
+  'how-to-source-clothing-from-india',
+  'india-manufacturing-for-us-brands',
+  'india-vs-china-manufacturing',
+  'private-label-clothing-india',
+  'private-label-vs-dropshipping',
+  'shopify-fashion-agency',
+  'testimonials',
+  'tiktok-shop-fashion-agency',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
@@ -137,6 +176,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  const usIndustryPages: MetadataRoute.Sitemap = usIndustrySlugs.map((slug) => ({
+    url: `${siteUrl}/us/industries/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  }));
+
+  const usToolPages: MetadataRoute.Sitemap = usToolSlugs.map((slug) => ({
+    url: `${siteUrl}/us/tools/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  const usCaseStudyPages: MetadataRoute.Sitemap = [
+    { url: `${siteUrl}/us/case-studies`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    ...usCaseStudySlugs.map((slug) => ({
+      url: `${siteUrl}/us/case-studies/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.75,
+    })),
+  ];
+
+  const usLandingPages: MetadataRoute.Sitemap = usLandingSlugs.map((slug) => ({
+    url: `${siteUrl}/us/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  }));
+
+  const utilityPages: MetadataRoute.Sitemap = [
+    { url: `${siteUrl}/sitemap-html`, lastModified: now, changeFrequency: 'monthly', priority: 0.3 },
+  ];
+
   return [
     ...indiaCore,
     ...indiaServices,
@@ -148,5 +222,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...usBlog,
     ...usMarketplacePages,
     ...usCityPages,
+    ...usIndustryPages,
+    ...usToolPages,
+    ...usCaseStudyPages,
+    ...usLandingPages,
+    ...utilityPages,
   ];
 }
