@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'performance marketing agency clothing brand',
   ],
   alternates: {
-    canonical: 'https://heritage.orbilox.com/services/performance-marketing',
+    canonical: 'https://www.heritageappreals.com/services/performance-marketing',
   },
   openGraph: {
     title: 'Performance Marketing for Fashion Brands India | Heritage Apparels',
@@ -109,7 +109,7 @@ export default function PerformanceMarketingPage() {
     provider: {
       '@type': 'LocalBusiness',
       name: 'Heritage Apparels',
-      url: 'https://heritage.orbilox.com',
+      url: 'https://www.heritageappreals.com',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Mumbai',

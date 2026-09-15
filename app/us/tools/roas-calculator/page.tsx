@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import ROASCalculator from './ROASCalculator';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageappreals.com';
 
 export const metadata: Metadata = {
   title: 'Free ROAS Calculator for Fashion Brands | Heritage Apparels',

@@ -26,7 +26,7 @@ export default function ContactPage() {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
     name: 'Contact Heritage Apparels',
-    url: 'https://heritage.orbilox.com/contact',
+    url: 'https://www.heritageappreals.com/contact',
     mainEntity: {
       '@type': 'Organization',
       name: 'Heritage Apparels',

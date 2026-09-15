@@ -5,7 +5,7 @@ import { indiaCities } from '@/lib/india-cities-data';
 import { usCities } from '@/lib/us-cities-data';
 import { usBlogPosts } from '@/lib/us-blog-data';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageappreals.com';
 
 const indiaServiceSlugs = [
   'manufacturing-sourcing',

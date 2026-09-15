@@ -9,7 +9,7 @@ interface SEOHeadProps {
   noIndex?: boolean;
 }
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageappreals.com';
 
 export default function SEOHead({
   title,

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'fashion brand growth strategy USA',
   ],
   alternates: {
-    canonical: 'https://heritage.orbilox.com/us/free-brand-audit',
+    canonical: 'https://www.heritageappreals.com/us/free-brand-audit',
   },
   openGraph: {
     title: 'Get a Free Fashion Brand Audit | Heritage Apparels USA',
@@ -132,7 +132,7 @@ export default function FreeBrandAuditPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://heritage.orbilox.com/us',
+      url: 'https://www.heritageappreals.com/us',
     },
     description:
       'Free fashion brand audit for US entrepreneurs. We review manufacturing cost, marketplace presence, ad ROAS, brand identity, D2C conversion, and TikTok readiness — then deliver a custom growth strategy within 48 hours.',

@@ -109,7 +109,7 @@ export default function PrivateLabelClothingIndiaPage() {
     provider: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      url: 'https://heritage.orbilox.com/us',
+      url: 'https://www.heritageappreals.com/us',
     },
     description:
       'Custom private label clothing manufactured in India for US fashion brands. MOQ 50 pieces, custom labels, 21-day production, QC, and US shipping included.',

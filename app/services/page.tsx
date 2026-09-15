@@ -184,7 +184,7 @@ export default function ServicesPage() {
       position: index + 1,
       name: service.title,
       description: service.description,
-      url: `https://heritage.orbilox.com${service.href}`,
+      url: `https://www.heritageappreals.com${service.href}`,
     })),
   };
 

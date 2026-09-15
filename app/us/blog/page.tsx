@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'US performance marketing fashion blog',
   ],
   alternates: {
-    canonical: 'https://heritage.orbilox.com/us/blog',
+    canonical: 'https://www.heritageappreals.com/us/blog',
   },
 };
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'D2C brand strategy tips India',
   ],
   alternates: {
-    canonical: 'https://heritage.orbilox.com/blog',
+    canonical: 'https://www.heritageappreals.com/blog',
   },
 };
 
@@ -61,7 +61,7 @@ export default async function BlogPage() {
       description: post.excerpt,
       datePublished: post.created_at,
       author: { '@type': 'Organization', name: post.author || 'Heritage Apparels' },
-      url: `https://heritage.orbilox.com/blog/${post.slug}`,
+      url: `https://www.heritageappreals.com/blog/${post.slug}`,
     })),
   };
 

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getBlogPostBySlug, getAllPublishedBlogPosts } from '@/lib/db';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageappreals.com';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -67,16 +67,16 @@ export default async function BlogPostPage({ params }: Props) {
     author: {
       '@type': 'Organization',
       name: post.author || 'Heritage Apparels',
-      url: 'https://heritage.orbilox.com',
+      url: 'https://www.heritageappreals.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Heritage Apparels',
-      logo: { '@type': 'ImageObject', url: 'https://heritage.orbilox.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://www.heritageappreals.com/logo.png' },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://heritage.orbilox.com/blog/${post.slug}`,
+      '@id': `https://www.heritageappreals.com/blog/${post.slug}`,
     },
   };
 
@@ -145,9 +145,9 @@ export default async function BlogPostPage({ params }: Props) {
             <p className="text-cream/40 text-sm mb-4">Share this article</p>
             <div className="flex items-center gap-3">
               {[
-                { name: 'LinkedIn', icon: 'in', href: `https://www.linkedin.com/sharing/share-offsite/?url=https://heritage.orbilox.com/blog/${post.slug}` },
-                { name: 'Twitter/X', icon: 'X', href: `https://twitter.com/intent/tweet?url=https://heritage.orbilox.com/blog/${post.slug}&text=${encodeURIComponent(post.title)}` },
-                { name: 'WhatsApp', icon: 'W', href: `https://wa.me/?text=${encodeURIComponent(post.title + ' - https://heritage.orbilox.com/blog/' + post.slug)}` },
+                { name: 'LinkedIn', icon: 'in', href: `https://www.linkedin.com/sharing/share-offsite/?url=https://www.heritageappreals.com/blog/${post.slug}` },
+                { name: 'Twitter/X', icon: 'X', href: `https://twitter.com/intent/tweet?url=https://www.heritageappreals.com/blog/${post.slug}&text=${encodeURIComponent(post.title)}` },
+                { name: 'WhatsApp', icon: 'W', href: `https://wa.me/?text=${encodeURIComponent(post.title + ' - https://www.heritageappreals.com/blog/' + post.slug)}` },
               ].map((social) => (
                 <a
                   key={social.name}
