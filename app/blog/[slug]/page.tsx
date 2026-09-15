@@ -3,8 +3,10 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getBlogPostBySlug, getAllPublishedBlogPosts } from '@/lib/db';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
+
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -18,16 +20,21 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
-    const post = getBlogPostBySlug(params.slug);
+    const { slug } = await params;
+    const post = getBlogPostBySlug(slug);
     if (!post) return { title: 'Article Not Found | Heritage Apparels' };
 
     return {
-      title: post.meta_title || `${post.title} | Heritage Apparels`,
+      title: { absolute: post.meta_title || `${post.title} | Heritage Apparels` },
       description: post.meta_description || post.excerpt,
       keywords: [post.category || '', 'fashion photography', 'Heritage Apparels'],
+      alternates: {
+        canonical: `${siteUrl}/blog/${post.slug}`,
+      },
       openGraph: {
         title: post.meta_title || post.title,
         description: post.meta_description || post.excerpt,
+        url: `${siteUrl}/blog/${post.slug}`,
         type: 'article',
         publishedTime: post.created_at,
         authors: [post.author || 'Heritage Apparels'],
@@ -39,9 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({ params }: Props) {
+  const { slug } = await params;
   let post;
   try {
-    post = getBlogPostBySlug(params.slug);
+    post = getBlogPostBySlug(slug);
   } catch {
     post = null;
   }

@@ -6,7 +6,7 @@ import { usBlogPosts, getUSBlogPostBySlug } from '@/lib/us-blog-data';
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getUSBlogPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = getUSBlogPostBySlug(slug);
   if (!post) return { title: 'Article Not Found | Heritage Apparels USA' };
 
   return {
@@ -34,8 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function USBlogPostPage({ params }: Props) {
-  const post = getUSBlogPostBySlug(params.slug);
+export default async function USBlogPostPage({ params }: Props) {
+  const { slug } = await params;
+  const post = getUSBlogPostBySlug(slug);
   if (!post) notFound();
 
   const articleSchema = {
