@@ -3,6 +3,7 @@ import { indiaMarketplaces } from '@/lib/india-marketplace-data';
 import { usMarketplaces } from '@/lib/us-marketplace-data';
 import { indiaCities } from '@/lib/india-cities-data';
 import { usCities } from '@/lib/us-cities-data';
+import { usBlogPosts } from '@/lib/us-blog-data';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://heritage.orbilox.com';
 
@@ -45,17 +46,6 @@ const indiaBlogSlugs = [
   'building-d2c-fashion-brand-visual-identity',
 ];
 
-const usBlogSlugs = [
-  'source-fashion-india-us-market-2025',
-  'amazon-vs-walmart-marketplace-us-brands',
-  'tiktok-shop-vs-instagram-shopping-fashion',
-  'cpsc-compliance-apparel-india-import-checklist',
-  'amazon-product-photography-us-fashion-2025',
-  'private-label-fashion-amazon-usa-india',
-  'meta-ads-vs-google-shopping-fashion-usa-2025',
-  'etsy-vs-shopify-handmade-fashion-us',
-  'india-to-usa-import-shipping-fashion-2025',
-];
 
 const usIndustrySlugs = [
   'clothing-brands',
@@ -124,8 +114,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const usBlog: MetadataRoute.Sitemap = usBlogSlugs.map((slug) => ({
-    url: `${siteUrl}/us/blog/${slug}`,
+  const usBlog: MetadataRoute.Sitemap = usBlogPosts.map((post) => ({
+    url: `${siteUrl}/us/blog/${post.slug}`,
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.7,
