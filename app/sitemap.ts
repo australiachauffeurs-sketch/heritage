@@ -92,6 +92,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const indiaCaseStudies: MetadataRoute.Sitemap = [
+    { url: `${siteUrl}/case-studies`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${siteUrl}/case-studies/winter-hoodie-brand-1-crore-6-months`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+  ];
+
   const indiaBlog: MetadataRoute.Sitemap = getAllPublishedBlogPosts().map((post) => ({
     url: `${siteUrl}/blog/${post.slug}`,
     lastModified: now,
@@ -190,6 +195,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...indiaCore,
     ...indiaServices,
     ...indiaBlog,
+    ...indiaCaseStudies,
     ...indiaMarketplacePages,
     ...indiaCityPages,
     ...usCore,
