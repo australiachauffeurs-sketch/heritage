@@ -4,6 +4,7 @@ import { usMarketplaces } from '@/lib/us-marketplace-data';
 import { indiaCities } from '@/lib/india-cities-data';
 import { usCities } from '@/lib/us-cities-data';
 import { usBlogPosts } from '@/lib/us-blog-data';
+import { getAllPublishedBlogPosts } from '@/lib/db';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.heritageappreals.com';
 
@@ -30,22 +31,6 @@ const usServiceSlugs = [
   'marketplace-onboarding',
   'compliance',
 ];
-
-const indiaBlogSlugs = [
-  'myntra-seller-onboarding-guide-2025',
-  'd2c-fashion-brand-launch-cost-india',
-  'myntra-vs-ajio-fashion-brands-india',
-  'meta-ads-fashion-brand-india-guide',
-  'private-label-clothing-manufacturing-india',
-  'nykaa-fashion-brand-onboarding-guide',
-  'fashion-photography-trends-d2c-2025',
-  'complete-guide-digital-cataloging-fashion-ecommerce',
-  'how-to-brief-fashion-photographer-d2c-brand-checklist',
-  'instagram-reels-fashion-brands-2025',
-  'roi-professional-fashion-photography-data',
-  'building-d2c-fashion-brand-visual-identity',
-];
-
 
 const usIndustrySlugs = [
   'clothing-brands',
@@ -107,8 +92,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const indiaBlog: MetadataRoute.Sitemap = indiaBlogSlugs.map((slug) => ({
-    url: `${siteUrl}/blog/${slug}`,
+  const indiaBlog: MetadataRoute.Sitemap = getAllPublishedBlogPosts().map((post) => ({
+    url: `${siteUrl}/blog/${post.slug}`,
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.7,
